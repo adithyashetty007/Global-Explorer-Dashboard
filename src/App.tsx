@@ -1,7 +1,14 @@
 import './App.css';
 
 function App() {
-  return <h1>Global Explorer Dashboard</h1>;
+  return (
+    <div className="flex h-screen items-center justify-center">
+      <h1 className="text-4xl font-bold text-blue-600">
+        Global Explorer Dashboard
+      </h1>
+    </div>
+  );
 }
 
 export default App;
+
