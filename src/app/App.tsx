@@ -1,12 +1,11 @@
 import './App.css';
-import { AppProviders } from './providers/AppProviders';
+import { AppProviders } from './providers';
+import { AppRouter } from './router/AppRouter';
 
 function App() {
   return (
     <AppProviders>
-      <div className="flex h-screen items-center justify-center">
-        <h1 className="text-4xl font-bold text-blue-600">Global Explorer Dashboard</h1>
-      </div>
+      <AppRouter />
     </AppProviders>
   );
 }
