@@ -1,7 +1,9 @@
+import { ApolloAppProvider } from './ApolloAppProvider';
+
 type Props = {
   children: React.ReactNode;
 };
 
 export function AppProviders({ children }: Props) {
-  return children;
+  return <ApolloAppProvider>{children}</ApolloAppProvider>;
 }
